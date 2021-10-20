@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hellodiv">
+        <svg width="1600" height="854" viewBox="0 0 1600 854" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="-178" y="257.769" width="1838.81" height="605.318" transform="rotate(-10.4262 -178 257.769)"
+                fill="url(#paint0_linear_0:1)" />
+            <rect x="669.066" y="525.327" width="978.21" height="314.794" transform="rotate(-12.2186 669.066 525.327)"
+                fill="url(#paint1_linear_0:1)" />
+            <defs>
+                <linearGradient id="paint0_linear_0:1" x1="1472.48" y1="361.831" x2="-303.647" y2="543.267"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#001DFA" />
+                    <stop offset="1" stop-color="#8996FF" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_0:1" x1="1442.19" y1="540.833" x2="644.466" y2="642.519"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4581F7" stop-opacity="0.61" />
+                    <stop offset="0.862691" stop-color="#4581F7" stop-opacity="0" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <div class="content">
+            <header>
+                <a class="logo">
+                    <svg viewBox="0 0 165 44" fill="white" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.065918" y="0.314453" width="164" height="43.3715" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_67:80"
+                                    transform="translate(-0.446172 -1.81523) scale(0.00647807 0.0244954)" />
+                            </pattern>
+                            <image id="image0_67:80" width="279" height="180"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARcAAAC0CAYAAAC+LGggAAAAAXNSR0IArs4c6QAAGkNJREFUeF7tnQm0HFWZx/9fVXW/JS952WNCdhIWn4hoAEUUcB9EHFGRJYwwjigqOIwwKgI2GMGDCgpug8qm4oILowM6DAo4sitkIaAEQhbI/pK8femq+ubcqu5+1f26XzovVk2S+t9zOHlU3fvdur976993+e4tAQMJkAAJxEBAYrBJkyRAAiQAigsbAQmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYA2N5nLaCMDq7oZYFixzrbsb2tAAz3Xhb9oE9447xIvxEWiaBP7fCFBc9gD9fSu1ZdFC3Jm1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" />
+                        </defs>
+                    </svg>
+                </a>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Priceing</a></li>
+                    </ul>
+                </div>
+                <button class="mainbutton">
+                    Get Started
+                </button>
+            </header>
+            <div class="mainblockcontent">
+                <div class="introductiondiv">
+                    <p>Inspiration Technology.</p>
+                    <p>Runs faster.</p>
+                    <p>Costs less and never breaks.</p>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien lectus sit tristique
+                        rhoncus, nisi, malesuada. Tellus consequat
+                    </p>
+                    <div>
+                        <button class="mainbutton">
+                            Get Started
+                        </button>
+                        <button class="transparentbutton">
+                            Free Trail
+                        </button>
+                    </div>
+                </div>
+                <img src="images/71595084c2ad06233b97e5e82b7b1081.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="partnersblock">
+        <div class="content">
+            <div id="partnerslistblock">
+                <div class="partnerdiv"><img src="images/fedex.png" alt=""></div>
+                <div class="partnerdiv"><img src="images/google.png" alt=""></div>
+                <div class="partnerdiv"><img src="images/ola.png" alt=""></div>
+                <div class="partnerdiv"><img src="images/microsoft.png" alt=""></div>
+                <div class="partnerdiv"><img src="images/amazon.png" alt=""></div>
+                <div class="partnerdiv"><img src="images/fedx.png" alt=""></div>
+                <div class="partnerdiv"><img src="images/walmart.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="simplesolutionsdiv">
+        <div class="content">
+            <div id="simplesolutionsdivcontent">
+                <div class="simplesolutiondivimage">
+                    <img src="images/5c088dc7eef427abbe1390776be76b71.jpg" alt="">
+                    <div class="newtransactiondiv">
+                        <div class="newtransactiondivcontent">
+                            <p>
+                                New transaction
+                            </p>
+                            <div class="recepientsdiv">
+                                <div class="recepientdiv">
+                                    <div id="chosen">
+                                        <img src="images/b8da88b3ab184cc53327ce28b485f05b.jpg" alt="">
+                                    </div>
+                                    <p>Ann</p>
+                                </div>
+                                <div class="recepientdiv">
+                                    <div>
+                                        <img src="images/04673988b6a1ddf52a49a182f37bdae8.jpg" alt="">
+                                    </div>
+                                    <p>Monica</p>
+                                </div>
+                                <div class="recepientdiv">
+                                    <div>
+                                        <img src="images/cf5d4a598f6cf76c0d6ed4bf16d74907.jpg" alt="">
+                                    </div>
+                                    <p>John</p>
+                                </div>
+                                <div class="recepientdiv">
+                                    <div>
+                                        <img src="images/cd9f720c33588ae247e7408ef3151d11.jpg" alt="">
+                                    </div>
+                                    <p>Mike</p>
+                                </div>
+                                <div class="recepientdiv">
+                                    <div>
+                                        <img src="images/d458e1186828d13c762284319ca54b38.jpg" alt="">
+                                    </div>
+                                    <p>Mia</p>
+                                </div>
+                                <div class="recepientdiv">
+                                    <div>
+                                        <div>
+                                            <p>
+                                                +
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p>Add New</p>
+                                </div>
+                            </div>
+                            <div class="sendthetransferform">
+                                <div>
+                                    <input type="text">
+                                    </input>
+                                    <label id="amount">0</label>
+                                    <label id="currency">$</label>
+                                </div>
+                                <button>
+                                    Send the transfer <span>></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="simplesolutiondescriptiondiv">
+                    <p>
+                        Lorem ipsum dolor sit ame
+                    </p>
+                    <p>
+                        Simple Solutions for Complex Connections
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed donec gravida feugiat neque, ipsum
+                        faucibus. Pharetra vel suspendisse mi odio a velit feugiat sapien.
+                    </p>
+                    <div>
+                        <div>
+                            <img src="images/listcheckicon.svg" alt="">
+                            <p>High Analysis</p>
+                        </div>
+                        <div>
+                            <img src="images/listcheckicon.svg" alt="">
+                            <p>Certified Institute</p>
+                        </div>
+                    </div>
+                    <button class="mainbutton">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="statsdiv">
+        <div class="content">
+            <svg id="tracery3" viewBox="0 0 1600 654" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.1"
+                    d="M562.942 350.184C240.059 220.218 -5.52286 414.296 -87.9535 527.581L-90.1326 560.281C24.104 397.215 273.049 247.223 561.745 368.157C757.032 381.171 1045.1 695.437 1313.08 543.481C1053.69 675.084 780.682 395.68 562.942 350.184Z"
+                    fill="url(#paint0_linear_55:253)" />
+                <path opacity="0.1"
+                    d="M962.604 312.27C1296.83 446.214 1553.04 255.118 1639.37 142.827L1641.85 110.149C1522.17 271.839 1262.77 418.801 963.97 294.309C761.375 278.899 464.546 -38.946 185.383 109.748C455.495 -18.6948 736.93 264.098 962.604 312.27Z"
+                    fill="url(#paint1_linear_55:253)" />
+                <defs>
+                    <linearGradient id="paint0_linear_55:253" x1="-139.232" y1="494.804" x2="1371.12" y2="496.785"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#1F7AFF" />
+                        <stop offset="1" stop-color="#1F37FF" stop-opacity="0.15" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_55:253" x1="1692.36" y1="176.238" x2="124.761" y2="163.368"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#1F7AFF" />
+                        <stop offset="1" stop-color="#1F37FF" stop-opacity="0.15" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <div class="statscounters">
+                <div class="statscounterdiv">
+                    <div class="statscounter">
+                        <p>
+                            50+
+                        </p>
+                        <p>
+                            Happy Clients
+                        </p>
+                    </div>
+                </div>
+                <div class="statscounterdiv">
+                    <div class="statscounter">
+                        <p>
+                            550+
+                        </p>
+                        <p>
+                            Projects Completed
+                        </p>
+                    </div>
+                </div>
+                <div class="statscounterdiv">
+                    <div class="statscounter">
+                        <p>
+                            250
+                        </p>
+                        <p>
+                            Dedicated Members
+                        </p>
+                    </div>
+                </div>
+                <div class="statscounterdiv">
+                    <div class="statscounter">
+                        <p>
+                            30+
+                        </p>
+                        <p>
+                            Awards Won
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="commiteddiv">
+        <div class="content">
+            <div>
+                <div>
+                    <p>Your Vision, Our Future.</p>
+                    <p>Committed to People, Committed </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+                <div class="commiteddivitem">
+                    <div class="commiteddivitemdiv">
+                        <img src="images/XMLID 49.svg" alt="">
+                        <p>Creative Ideas</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed donec gravida </p>
+                    </div>
+                </div>
+                <div class="commiteddivitem">
+                    <div class="commiteddivitemdiv">
+                        <img src="images/Group 179.svg" alt="">
+                        <p>Beautiful Blog</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed donec gravida </p>
+                    </div>
+                </div>
+                <div class="commiteddivitem">
+                    <div class="commiteddivitemdiv">
+                        <img src="images/Group 180.svg" alt="">
+                        <p>User Friendly</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed donec gravida </p>
+                    </div>
+                </div>
+                <div class="commiteddivitem">
+                    <div class="commiteddivitemdiv">
+                        <img src="images/Group 181.svg" alt="">
+                        <p>Perfect Showcase</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed donec gravida </p>
+                    </div>
+                </div>
+                <div class="commiteddivitem">
+                    <div class="commiteddivitemdiv">
+                        <img src="images/Group 182.svg" alt="">
+                        <p>Easy to Use</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed donec gravida </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="usersreview">
+        <div class="content">
+            <div>
+                <p>
+                    User’s Review
+                </p>
+                <p>
+                    Collaborate over projects with your team and clients optimised for mobile and tablet don't let slow
+                </p>
+                <div class="usersreviewtable">
+                    <div class="reviewsdiv">
+                        <p>What People Say About Us</p>
+                        <div class="review">
+                            <div class="review_person">
+                                <p>Davit millar</p>
+                                <p>CEO, PParkivew int, Ltd</p>
+                            </div>
+                            <div class="review_text">
+                                <div>
+                                    <img src="images/Star 5.svg" alt="">
+                                    <img src="images/Star 5.svg" alt="">
+                                    <img src="images/Star 5.svg" alt="">
+                                    <img src="images/Star 5.svg" alt="">
+                                    <img src="images/Star 5.svg" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit nisl, tincidunt commodo
+                                    sit. Et, purus lectus odio cursus placerat leo, non etiam. Neque at leo risus orci,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="usersreviewsmenu">
+                            <button><</button>
+                                    <button>></button>
+                        </div>
+                    </div>
+                    <div class="usersreviewtablephoto">
+                        <div>
+                            <div>
+                                <img src="images/5c09f379b5c22d48f52af4de0983e7ca.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="usersreviewtablephotoicon">
+                            <svg width="30" height="49" viewBox="0 0 30 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.065918 0V29.2947H14.7133L4.9483 48.8245H19.5957L29.3607 29.2947V0H0.065918Z"
+                                    fill="white" />
+                            </svg>
+                            <svg width="30" height="49" viewBox="0 0 30 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.065918 0V29.2947H14.7133L4.9483 48.8245H19.5957L29.3607 29.2947V0H0.065918Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="buyblock">
+        <div class="buyblockcontent">
+            <p>Without Extra Charge Choose
+                Your Best Plan</p>
+            <div class="buyvariants">
+                <button>Monthly</button>
+                <button>Yearly</button>
+            </div>
+        </div>
+    </div>
+    <div class="plansdiv">
+        <div class="plansdivcontent">
+            <div class="plans">
+                <div class="plan">
+                    <p>Standard</p>
+                    <p>$29</p>
+                    <p>monthly pack</p>
+                    <ul>
+                        <li>256 GB SSD STORE</li>
+                        <li>FULL UI KIT DOWNLOAD</li>
+                        <li>PUBLIC API</li>
+                        <li>FULL UI PACK DOWNLOAD</li>
+                        <li>24/7 SUPPORT</li>
+                    </ul>
+                    <button class="mainbutton">
+                        Install Pack
+                    </button>
+                    <div class="plan_triangle">
+                        <img src="images/Polygon 1.svg" alt="">
+                        <img src="images/Group 35.svg" alt="">
+                    </div>
+                </div>
+                <div class="plan">
+                    <p>Standard</p>
+                    <p>$39</p>
+                    <p>monthly pack</p>
+                    <ul>
+                        <li>256 GB SSD STORE</li>
+                        <li>FULL UI KIT DOWNLOAD</li>
+                        <li>PUBLIC API</li>
+                        <li>FULL UI PACK DOWNLOAD</li>
+                        <li>24/7 SUPPORT</li>
+                    </ul>
+                    <button class="mainbutton">
+                        Install Pack
+                    </button>
+                    <div class="plan_triangle">
+                        <img src="images/Polygon 1.svg" alt="">
+                        <img src="images/Group 193.svg" alt="">
+                    </div>
+                </div>
+                <div class="blur"></div>
+            </div>
+        </div>
+        <div class="subscribediv">
+            <div></div>
+            <div></div>
+            <div class="subscribedivcontent">
+                <p>NEWSLETTER</p>
+                <p>We Offer Every Month 20% Off
+                    For Our All Subscribers</p>
+                <div class="subscribeform">
+                    <p>Email Address</p>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <svg width="1600" height="188" viewBox="0 0 1600 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1600.07 62.8623H306.066V188H1600.07V62.8623Z" fill="url(#fill1)"/>
+            <path d="M-85.7058 0.5L1229.46 188V186.615H-85.7058V0.5Z" fill="url(#fill2)"/>
+            <path d="M-3.70581 74L951.066 188V187.158H-3.70581V74Z" fill="url(#fill3)"/>
+            <path d="M1600.07 74L645.294 188V187.158H1600.07V74Z" fill="url(#fill4)"/>
+            <defs>
+            <linearGradient id="fill1" x1="20.798" y1="152.213" x2="1590.08" y2="-65.6783" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#000423"/>
+            <stop offset="1" stop-color="#050A59"/>
+            </linearGradient>
+            <linearGradient id="fill2" x1="1184.01" y1="167.811" x2="-263.432" y2="-173.4" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#050B42"/>
+            <stop offset="1" stop-color="#05106B"/>
+            </linearGradient>
+            <linearGradient id="fill3" x1="-3.70581" y1="156.36" x2="1015.4" y2="188" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#000848"/>
+            <stop offset="1" stop-color="#1F0977"/>
+            </linearGradient>
+            <linearGradient id="fill4" x1="434.811" y1="154.797" x2="1600.07" y2="22.7803" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00053C"/>
+            <stop offset="1" stop-color="#010C64"/>
+            </linearGradient>
+            </defs>
+            </svg>
+                      
+        <div class="content">
+            <div>
+                <div>
+                    <svg class="logo" viewBox="0 0 165 44" fill="white" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.065918" y="0.314453" width="164" height="43.3715" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_67:80"
+                                    transform="translate(-0.446172 -1.81523) scale(0.00647807 0.0244954)" />
+                            </pattern>
+                            <image id="image0_67:80" width="279" height="180"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARcAAAC0CAYAAAC+LGggAAAAAXNSR0IArs4c6QAAGkNJREFUeF7tnQm0HFWZx/9fVXW/JS952WNCdhIWn4hoAEUUcB9EHFGRJYwwjigqOIwwKgI2GMGDCgpug8qm4oILowM6DAo4sitkIaAEQhbI/pK8femq+ubcqu5+1f26XzovVk2S+t9zOHlU3fvdur976993+e4tAQMJkAAJxEBAYrBJkyRAAiQAigsbAQmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYKVREiABigvbAAmQQCwEKC6xYA2N5nLaCMDq7oZYFixzrbsb2tAAz3Xhb9oE9447xIvxEWiaBP7fCFBc9gD9fSu1ZdFC3Jm1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" />
+                        </defs>
+                    </svg>
+                    <div class="webs">
+                        <a href="">
+                            <img src="images/Group 191.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/Group 192.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/Group 190.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/Group 189.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="articlelist">
+                    <p href="">Short Links</p>
+                    <a href="">Home</a>
+                    <a href="">Services</a>
+                    <a href="">Screenshots</a>
+                    <a href="">Contact</a>
+                </div>
+                <div class="articlelist">
+                    <p href="">Help Link</p>
+                    <a href="">How to download</a>
+                    <a href="">How it work</a>
+                    <a href="">Video tutorial</a>
+                    <a href="">FAQ</a>
+                </div>
+                <div class="articlelist">
+                    <p href="">SHORT LINKS</p>
+                    <a href="">Google Play Store</a>
+                    <a href="">Apple App Store</a>
+                    <a href="">Download Directly</a>
+                </div>
+            </div>
+        </div>            
+    </footer>
+</body>
+
+</html>
