@@ -1287,7 +1287,7 @@ footer>div.content>div>*:nth-child(1)
         --bigfontsize:25px;
         --biggerfontsize:27.5px;
         --hugefontsize:30.5px;
-        --smallfontsize:6px;
+        --smallfontsize:7.5px;
         --hugestfontsize:38px;
     }
 
@@ -1343,5 +1343,128 @@ footer>div.content>div>*:nth-child(1)
     padding: 10px 20px;
     z-index: 5;
     cursor: pointer;
+}
+.partnersblock {
+    max-width: 640px;
+    height: auto;
+    margin: 200px 0;
+}
+#partnerslistblock 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 41px;
+    width: -webkit-fill-available;
+    margin:0;
+}
+#partnerslistblock>*:last-child
+{
+    grid-column: 1/3;
+}
+.partnerdiv {
+    min-width: 0;
+    width: 220px;
+    justify-self: center;
+    
+}
+.simplesolutionsdiv
+{
+    justify-content: flex-start;
+}
+#simplesolutionsdivcontent {
+    display: grid;
+    grid-template-columns: 45fr 25fr;
+    padding: 0;
+    grid-gap: 20px;
+    margin: 0 30px;
+}
+.simplesolutiondescriptiondiv {
+    align-self: flex-start;
+    height: fit-content;
+    margin-left: -20%;
+    background: white;
+    border-radius: 10px;
+    z-index: 20;
+    padding: 20px;
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.08);
+}
+.simplesolutiondivimage>img
+{
+    width: 110%;
+    
+}
+.newtransactiondiv
+{
+    height: auto;
+    width: 100%;
+}
+.newtransactiondivcontent
+{
+    margin: 10px;
+}
+.recepientsdiv
+{
+    grid-gap: 8px;
+}
+.simplesolutiondescriptiondiv
+{
+    width: min-content;
+}
+.simplesolutiondescriptiondiv>p:nth-child(2)
+{
+    font-weight: 700;
+    color: var(--blackcolor);
+    font-size: var(--bigfontsizebolder);
+    max-width: 350px;
+}
+.simplesolutiondescriptiondiv>p:nth-child(3)
+{
+    font-weight: 500;
+    color: var(--blackcolor);
+    font-size: var(--regularfontsize);
+    max-width: 280px;
+    margin: 12px 0;
+    line-height: 150%;
+    opacity: 0.7;
+}
+.simplesolutiondescriptiondiv>div
+{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.statscounter {
+    height: 271px;
+    width: 139px;
+}
+.statscounters
+{
+    grid-gap: 10px;
+}
+body>*>.content>* {
+    margin: 50px 0;
+    width: 80%;
+}
+.plans
+{
+    grid-template-columns: 1fr;
+}
+.plan
+{
+    padding:70px 48px;
+}
+.plansdiv>*
+{
+    transform: none;
+}
+.buyblockcontent
+{
+    padding: 63px 0;
+}
+.blur
+{
+    display: none;
 }
 }
