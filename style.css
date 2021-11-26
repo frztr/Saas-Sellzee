@@ -1076,8 +1076,13 @@ div.plan_triangle
     position: absolute;
     display: flex;
 }
+div.plan_triangle>img:nth-child(1)
+{
+    width: 100%;
+}
 div.plan_triangle>img:nth-child(2)
 {
+    width: 19.5%;
     position: absolute;
     top: 0;
     bottom: 0;
